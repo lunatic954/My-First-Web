@@ -1,0 +1,132 @@
+*{
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+  font-style: normal;
+}
+body {
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/*-- Header / Navbar --*/
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00CC66;
+    padding: 20px;
+    z-index: 1;
+}.header a{
+    padding: 8px 3px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 8px;
+    padding: 8px 3px;
+}.header a:hover{
+    cursor: pointer;
+}
+
+/*--Section-1--*/
+
+.delivered{
+    font-size: 62px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+    color: white;
+}
+.at {
+    font-size: inherit;
+    font-weight: inherit;
+}
+.delivered-paragraph {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: white; 
+  max-width: 400px;
+}
+.button{
+    display: inline-block;
+    color: rgb(5, 143, 5);
+    background-color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    transition: all;
+    transition-duration:0.5s;
+    
+}.button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(5, 143, 5);
+    transform: translateY(-3px);
+    
+}
+.d{
+    margin:0;
+    padding: 200px;
+    padding-top: 160px;
+}
+.logo {
+    padding: 0px;
+}
+.main-page{
+    height: 600px;
+    width: 100%;
+    background-image: url(./images/main\ bristoimg.png);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0px;
+}
+
+/*--Section-2--*/
+
+.sample{
+    padding-top:50px ;
+    display: flex;
+    justify-content: center;
+}
+
+/*--Section-3--*/
+
+.health-list-head{
+    color: black;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+}.list-1 {
+    color: rgb(59, 59, 59);
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 40px;
+}
+ul{
+    list-style-type: none;
+}
+li::before {
+    content: "✦";
+    padding-right: 5px;
+}
+#high{
+    max-width: 450px;
+}#balanced{
+    max-width: 500px;
+}
+.maintenance{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+    scale: 1.3;
+}
